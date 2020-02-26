@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+  <section class="contact pad-t-2 pad-b-2">
+    <div class="max-length">
+      <h1>Want to go to Mars?</h1>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <form class="push-0" method="POST" action="https://formspree.io/mvorakyw">
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" required>
+        </div>
+        <div class="push">
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" required>
+        </div>
+        <div class="push">
+          <label for="subject">Subject</label>
+          <select id="subject">
+            <option>Get a quote!</option>
+            <option>General Question</option>
+            <option>Just to talk</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="details">What's up?</label>
+          <textarea id="details" required></textarea>
+        </div>
+        <div>
+          <button class="btn btn-might mega" type="submit">Send message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
